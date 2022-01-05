@@ -58,3 +58,60 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 100%;
 }
+.text-area{
+    
+    position: absolute;
+    bottom: 8%;
+}
+.text-area p{
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+.text-area h1{
+    font-size: 190px;
+    line-height: 160px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(./pics/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: backgr 20s linear infinite;
+}
+
+/* Animation */
+@keyframes backgr{      
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.text-area h3{
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+}
+.bottom a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+.social-icon{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icon img{
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
+}
